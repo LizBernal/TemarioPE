@@ -4,25 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temario</title>
-    <style>
-        body {
-          font-family: 'Verdana', sans-serif;
-          background-color: #85a5f5;
-        }
-        div {
-    text-align: justify;
-        }
-        h1 {
-    text-align: center;
-           }
-           h2 {
-        color: #042f8a; 
-              }
-      </style>
+     <link rel="stylesheet" href="Estilo.css">
 </head>
 <body>
-    <h1 style="font-family: 'Georgia', serif;">Tema 1</h1>
-    <h2 style="font-family: 'Georgia', serif;">Estadística Descriptiva</h2>
+    <h1>Tema 1</h1>
+    <h2>Estadística Descriptiva</h2>
     <h2>1.1 Conceptos Básicos de Estadística</h2> 
     <ul> <li><strong>Definición:</strong> La estadística es la ciencia que se encarga de recopilar, organizar, analizar e interpretar datos.</li> <li>
         <strong>Teoría de Decisión:</strong> Principios y métodos para tomar decisiones óptimas en presencia de incertidumbre.</li> <li>
@@ -48,8 +34,8 @@
         <h2>1.7 Técnicas de Muestreo</h2> <ul> <li>Métodos para seleccionar muestras representativas de una población.</li> </ul>
         <h2>1.8 Histograma</h2> <ul> <li>Los histogramas son una forma simple pero efectiva de visualizar la distribución de una variable numérica, proporcionan una imagen visual de cómo se distribuyen los datos en diferentes rangos de valores e igualmente permiten identificar patrones, tendencias y anomalías en los datos.</li> </ul>
          
-        <h1 style="font-family: 'Georgia', serif;">Tema 2</h1>
-        <h2 style="font-family: 'Georgia', serif;">Fundamentos de la teoría de Probabilidead</h2>
+        <h1>Tema 2</h1>
+        <h2>Fundamentos de la teoría de Probabilidead</h2>
         <h2>2.1 Técnicas de conteo</h2> 
         <ul> <li><strong>Definición:</strong>Las técnica de conteo son procedimientos sistemáticos utilizadas para determinar el número total de resultados posibles a partir de combinaciones de elementos de uno o más conjuntos.</li> <li>
             <strong>2.1.1 Pincipio aditivo:</stron>Establece que si un evento puede ocurrir de n maneras diferentes y otro evento puede ocurrir de m maneras diferentes, y estos eventos son mutuamente excluyentes, entonces el número total de maneras en que uno de los dos eventos puede ocurrir es la suma de n y m.</li> <li>
@@ -71,8 +57,8 @@
             <h2>2.2 Teoría elemental de probabilidad: </h2> <ul> <li></li> </ul> 
             <h2>2.2 Teoría elemental de probabilidad: </h2> <ul> <li></li> </ul> 
 
-            <h1 style="font-family: 'Georgia', serif;">Tema 3</h1>
-            <h2 style="font-family: 'Georgia', serif;">Variables Aleatorias</h2>
+            <h1>Tema 3</h1>
+            <h2>Variables Aleatorias</h2>
             <h2>3.1 Variables aleatorias discretas</h2><ul> <li>
                 <strong>Definición:</strong>Son aquellas que pueden tomar un número finito o infinito contable de valores, generalmente enteros.</li> <li>
                  <strong>3.1.1 Distribución de probabilidad en forma general:</strong>Describe la probabilidad de ocurrencia de cada valor posible de una variable aleatoria discreta. Cada valor puede estar asociado con una probabilidad distinta de cero y se suele representar en forma tabular.</li> <li>
@@ -86,12 +72,35 @@
                 <strong>3.2.3 variancia, desviación estándar:</strong>La variancia de una variable aleatoria continua X mide la dispersión de los valores de X alrededor de su valor esperado. Es el valor esperado del cuadrado de la desviación de X respecto a su media.</li> <li>
                 <strong>2.2.4 Función acumulada:</strong>Es la probabilidad de que X sea menor o igual a un valor x dado. Es una función no decreciente que toma valores entre 0 y 1. Es la integral de la función de densidad desde menos infinito hasta x.</li><li> 
                 <strong>2.2.5 Cálculos de probabilidad:</strong>Para calcular probabilidades con variables continuas, se utilizan integrales de la función de densidad en los intervalos de interés. La probabilidad de que X esté entre dos valores a y b es el área bajo la curva entre esos valores.</li></ul> 
-
-
-
-
-
-
+                <h1>Tema 4</h1>
+                <h2>Distribuciones de Probabilidad</h2>
+                <h2>4.1 Función de probabilidad</h2><ul> <li>Describe la probabilidad de que una variable aleatoria tome un valor específico.
+                    Existen diferentes tipos de funciones de probabilidad, dependiendo del tipo de variable aleatoria que se esté analizando,
+                    las funciones de probabilidad pueden ser discretas (para variables aleatorias discretas) o continuas (para variables aleatorias continuas).
+                <h2>4.2 Distribución binomial</h2>
+                Esta se utiliza para modelar el número de éxitos en un número fijo de ensayos independientes, donde cada ensayo tiene solo dos posibles resultados (éxito o fracaso).
+                Los parámetros clave son el número de ensayos (n) y la probabilidad de éxito en cada ensayo (p).
+                <h2>4.3 Distribución hipergeométrica</h2> 
+                Se utiliza para modelar el número de éxitos en un muestreo sin reemplazo de una población finita.
+                Los parámetros clave son el tamaño de la población (N), el número de elementos de interés en la población (K),
+                y el tamaño de la muestra (n).  
+                <h2>4.4 Distribución de Poisson</h2>
+                Se utiliza para modelar el número de eventos que ocurren en un intervalo de tiempo o espacio, cuando los eventos ocurren de manera independiente y a una tasa constante.
+                El parámetro clave es la tasa media de ocurrencia de los eventos (λ).
+                <h2>4.5 Distribución normal</h2>
+                La distribución normal, también conocida como distribución gaussiana, es una de las distribuciones de probabilidad más importantes y ampliamente utilizadas,
+                Se caracteriza por ser simétrica, unimodal y continua. Los parámetros clave son la media (μ) y la desviación estándar (σ).
+                <h2>4.6 Distribución T-student</h2>
+                se utiliza cuando se trabaja con muestras pequeñas y la desviación estándar de la población es desconocida,
+                se emplea en la construcción de intervalos de confianza y en pruebas de hipótesis. Los parámetros clave son la media (μ), la desviación estándar de la muestra (s) y los grados de libertad (n-1).
+                <h2>4.7 Distribución Chi cuadrada</h2>
+                se utiliza para modelar la suma de los cuadrados de variables aleatorias normales estandarizadas,
+                esta tiene aplicaciones en pruebas de bondad de ajuste, análisis de varianza y construcción de intervalos de confianza.
+                El parámetro clave es el número de grados de libertad (ν).ss
+                <h2>4.8 Distribución F</h2>
+                Se utiliza para modelar el cociente de dos variables aleatorias independientes que siguen una distribución Chi cuadrada,
+                se emplea en pruebas de hipótesis sobre la igualdad de varianzas y en análisis de varianza.
+                Los parámetros clave son los grados de libertad del numerador (ν1) y los grados de libertad del denominador (ν2).
 
 
 </body>
