@@ -4,18 +4,68 @@ body {
     font-size: 16px;
     color: #035a8c;
     line-height: 1.5;
-    margin: 1;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
     background-attachment: fixed;
     overflow-x: hidden;
     text-align: justify;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    width: 80%; /* Ajusta el ancho del contenido */
+    max-width: 2000px; /* Establece un ancho máximo para el contenido */
+    background-color:#498fdf; 
+
+      /* Estilo de la cabecera */
+  header {
+        background-color: #566fea;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .logo img {
+        height: 95px;
+      }
+  
+      .site-title {
+        font-size: 45px;
+        font-weight: Arial;
+      }
+  
   }
+  .main-text {
+    background-color: #eef3f6; /* Fondo del texto */
+    padding: 10px;
+    margin: 1px;
+    box-shadow: 10px rgba(66, 72, 77, 0.1);
+  }
+
+
 
 h1 {
     font-size: 36px;
     color: #101ebc;
-  }
+   }
+
   h2 {
     font-size: 24px;
     color: #198bc0;
+  }
+
+  .formula {
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1168ca;
+    color: #040714;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
   }
